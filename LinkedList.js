@@ -15,6 +15,10 @@ class LinkedList {
 	return this.head;
     }
 
+    size(){
+        return this.size;
+    }
+
     append(value = _isRequired("Value")) {
         const newNode = new Node(value);
 
